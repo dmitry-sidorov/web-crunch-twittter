@@ -67,3 +67,4 @@ class TweeetsController < ApplicationController
       params.require(:tweeet).permit(:tweeet)
     end
 end
+ 
